@@ -1,0 +1,36 @@
+.login{
+    width: 1100px;
+    height: 600px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-bottom: 67px;
+    margin-top: 70px;
+
+    &__title{
+        text-align: center;
+        padding-top: 100px;
+        font-weight: 900;
+        font-size: 40px;
+        color: blueviolet;
+    }
+
+    &__input{
+        width: 300px;
+        padding: 10px;
+        border: none;
+        background-color: bisque;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    &__btn{
+        padding: 10px 50px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        border: none;
+        background-color: greenyellow;
+    }
+}
